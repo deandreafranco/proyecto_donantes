@@ -29,6 +29,9 @@ public class Pedido {
 
     @OneToOne
     private Respuesta_donador respuesta_donador;
+    
+    @OneToOne
+    private Datos datos;
 
     public Pedido() {
     }

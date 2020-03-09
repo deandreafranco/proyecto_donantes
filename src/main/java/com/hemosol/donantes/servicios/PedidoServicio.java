@@ -8,14 +8,14 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service 
+@Service
 public class PedidoServicio {
-    
-    @Autowired
-     private UsuarioRepositorio usuarioRepositorio;
-    
-    @Autowired
-    private PedidoRepositorio pedidoRepositorio;
+
+	@Autowired
+	private UsuarioRepositorio usuarioRepositorio;
+
+	@Autowired
+	private PedidoRepositorio pedidoRepositorio;
     
 //    public void pedirDonantes(String idUsuario, String nombre_del_necesitado, String apellido_del_necesitado,String grupo_sanguineo, String cantidad_de_donantes_neccesitados,String centro_de_salud,String horarios_de_donacion) {
 //        

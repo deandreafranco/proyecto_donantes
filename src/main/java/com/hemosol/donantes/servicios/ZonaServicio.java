@@ -10,7 +10,5 @@ package com.hemosol.donantes.servicios;
  * @author Martin Lana
  */
 public class ZonaServicio {
-    
-    
-    
+
 }
